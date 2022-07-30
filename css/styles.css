@@ -610,7 +610,7 @@ body {
   border: 1px solid var(--backg-hero);
   background-color: transparent;
   cursor: pointer;
-  transition: fill var(--acent);
+  transition: fill var(--time);
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -690,8 +690,11 @@ body {
 .agreement-icon-check {
   opacity: 0;
 }
-.agreement-checkbox:checked+.agreement-icon .agreement-icon-check {
+.agreement-checkbox:checked + .agreement-icon .agreement-icon-check {
   opacity: 1;
+}
+.agreement-checkbox:focus + .agreement-icon .agreement-icon-uncheck{
+ fill: var(--acent)
 }
 .modal-form-icon {
   position: absolute;
