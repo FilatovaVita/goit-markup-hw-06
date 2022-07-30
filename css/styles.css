@@ -670,7 +670,6 @@ body {
 .form-input:focus + .modal-form-icon {
   fill: var(--acent);
 }
-
 .form-agreement {
   display: flex;
   align-items: center;
